@@ -217,6 +217,9 @@
     margin: 0;
     border-radius: 0;
   }
+  .shop__container .carrousel__container {
+    width: 150%;
+  }
   .shop__container .carrousel__container .title {
     font-size: 5em;
   }

@@ -1,0 +1,229 @@
+// Contenedor de la tienda
+.shop__container{
+  margin: 0 10em;
+  border-radius: 10px;
+  box-shadow: 0 0 10em #000;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+  // Barra de navegación
+  .container-fluid {
+    display: flex;
+    justify-content: space-between;
+    .navbar-brand{
+      font-size: 1.7em;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    .nav-link{
+      font-size: 1.3em;
+    }
+  }
+
+  // Sección slider
+  .carrousel__container{
+    width: 100%;
+    height: 96vh;
+    position: relative;
+    #carouselFood{
+      .main__img{
+        height: 96vh;
+      }
+    }
+    // Division de ola
+    .wave{
+      position: absolute;
+      margin-top: -9.3em;
+      width: 100%;
+    }
+
+    .title{
+      position: absolute;
+      align-items: center;
+      display: flex;
+      justify-content: center;
+      z-index: 100;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      font-size: 8em;
+      color: #00000078;
+      width: 100%;
+      height: 100%;
+      text-align: center;
+    }
+  }
+
+  // Sección productos
+  .main__container{
+    display: grid;
+    grid-template-columns: 15em 1fr;
+    grid-template-rows: 2em 93vh;
+    grid-template-areas: 
+    "x title"
+    "categ food";
+    background-color: rgb(252, 197, 197);
+    #title__catalogo{
+      grid-area: title;
+      text-align: center;
+      font-size: 3em;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    .categories{
+      grid-area: categ;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin-top: 5em;
+      gap:4em;
+      padding-left: .5em;
+      align-items: center;
+      .category__btn{
+        display: flex;
+        align-items: center;
+        position: relative;
+        overflow: hidden;
+        font-size: 1.2em;
+        border:0;
+        border-radius: 1em;
+        width: 9.5em;
+        height: 2em;
+        cursor: pointer;
+        z-index: 100;
+        transition: color 1s;
+        p{
+          display: flex;
+          margin-top: auto;
+          margin-bottom: auto;
+        }
+        span{
+          position: absolute;
+          width: 11.15em;
+          height: 10em;
+          left: 13em;
+          top: -1em;
+          background-color: #000;
+          transition: left .5s;
+          z-index: -100;
+        }
+      }
+      .category__icon{
+        width: 32px;
+        height: 32px;
+        margin-right: 10px;
+      }
+    }
+    #food__container{
+      grid-area: food;
+      margin-top: 5em;
+      display: flex;
+      flex-wrap: wrap;
+      padding: 1em;
+      gap: 2em;
+      overflow: auto;
+      border-bottom: 2px solid rgb(252, 170, 170);
+      justify-content: center;
+
+      .container__detail{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        box-shadow: 0 0 .4em #000;
+        width: 22em;
+        height: 20em;
+        transition: box-shadow 2s;
+      }
+
+      .detail__img{
+        width: 20em;
+        height: 10em;
+        border-radius: .5em;
+        transition: width .3s, height .7s;
+      }
+      .price{
+        color:#000;
+        font-size: 2em;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      }
+    }
+    #food__container::-webkit-scrollbar{
+      width: .7em;
+    }
+    #food__container::-webkit-scrollbar-thumb{
+      background-color: rgb(252, 170, 170);
+      border-radius: 1em;
+    }
+  }
+  #contacto{
+    height: auto;
+    padding: 2em 0;
+    background-color: rgb(252, 197, 197);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 6em;
+    .contact__left{
+      display: flex;
+      justify-content: end;
+      align-items: center;
+      .contact__img{
+        width: 25em;
+        height: 25em;
+        border-radius: 20px;
+      }
+    }
+    .contact__right{
+      display: flex;
+      flex-direction: column;
+      h2{
+        margin: 1.5em 0 1em 0;
+      }
+      div{
+        display: grid;
+        grid-template-columns: 4em 1fr;
+        grid-template-rows: repeat(4,1em);
+        align-items: center;
+        .whatsapp{
+          display: flex;
+          margin-left: auto;
+          margin-right: auto;
+          width: 40px;
+          height: 40px
+        }
+        .facebook{
+          display: flex;
+          margin-left: auto;
+          margin-right: auto;
+          width: 31px;
+          height: 31px
+        }
+        .instagram{
+          display: flex;
+          margin-left: auto;
+          margin-right: auto;
+          width: 35px;
+          height: 35px
+        }
+        .email{
+          display: flex;
+          margin-left: auto;
+          margin-right: auto;
+          width: 40px;
+          height: 40px
+        }
+        p{
+          padding: 10px 0 0 10px;
+          font-size: 1.4em;
+        }
+      }
+    }
+  }
+
+  footer{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    height: auto;
+    background-color: #000;
+    p{
+      color:#fff
+    }
+  }
+}

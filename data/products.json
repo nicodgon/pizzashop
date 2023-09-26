@@ -1,0 +1,88 @@
+[{
+    "id":"1",
+    "producto":"Chipa",
+    "imagen":"https://alicante.com.ar/uploads/recetas/91_receta.jpg",
+    "descripcion":"Panecillo tradicional de Paraguay, de textura densa y ligeramente crujiente por fuera, mientras que el interior es suave y con un sabor a queso distintivo.",
+    "categoria":"EMPANADAS",
+    "precio":500
+},
+{
+    "id":"2",
+    "producto":"Focaccia",
+    "imagen":"https://comidaschilenas.com/wp-content/uploads/2023/04/Receta-de-focaccia-italiana-casera.jpg",
+    "descripcion":"Pan plano originario de Italia. Su masa es similar a la del pan, pero se caracteriza por ser más gruesa y se le añade aceite de oliva y hierbas aromáticas como romero, tomillo o albahaca.",
+    "categoria":"PIZZAS",
+    "precio":2000
+},{
+    "id":"3",
+    "producto":"Sandwich de miga",
+    "imagen":"https://s7e6w6d2.rocketcdn.me/wp-content/uploads/2021/05/sandwichesdemiga-e1675089010170.jpg",
+    "descripcion":"Clásico de la gastronomía argentina. Consiste en una especie de sándwich hecho con pan de miga, que es un pan de molde muy fino y suave, sin corteza.",
+    "categoria":"PIZZAS",
+    "precio":3000
+},{
+    "id":"4",
+    "producto":"Ciabata",
+    "imagen":"https://www.abc.com.py/resizer/yKHMjZFa20_k-ssl3IU27zQzmvs=/arc-anglerfish-arc2-prod-abccolor/public/QHY74HMLXRHLTFNBCW5J3VMW2E.jpg",
+    "descripcion":"Pan originario de Italia. Su nombre proviene de la palabra 'ciabatta', que significa zapatilla en italiano, debido a su forma aplanada y alargada. Es un pan de miga abierta, con una corteza crujiente y dorada.",
+    "categoria":"PIZZAS",
+    "precio":1000
+},{
+    "id":"1",
+    "producto":"Chipa",
+    "imagen":"https://alicante.com.ar/uploads/recetas/91_receta.jpg",
+    "descripcion":"Panecillo tradicional de Paraguay, de textura densa y ligeramente crujiente por fuera, mientras que el interior es suave y con un sabor a queso distintivo.",
+    "categoria":"PIZZAS",
+    "precio":500
+},
+{
+    "id":"2",
+    "producto":"Focaccia",
+    "imagen":"https://comidaschilenas.com/wp-content/uploads/2023/04/Receta-de-focaccia-italiana-casera.jpg",
+    "descripcion":"Pan plano originario de Italia. Su masa es similar a la del pan, pero se caracteriza por ser más gruesa y se le añade aceite de oliva y hierbas aromáticas como romero, tomillo o albahaca.",
+    "categoria":"PIZZAS",
+    "precio":2000
+},{
+    "id":"3",
+    "producto":"Sandwich de miga",
+    "imagen":"https://s7e6w6d2.rocketcdn.me/wp-content/uploads/2021/05/sandwichesdemiga-e1675089010170.jpg",
+    "descripcion":"Clásico de la gastronomía argentina. Consiste en una especie de sándwich hecho con pan de miga, que es un pan de molde muy fino y suave, sin corteza.",
+    "categoria":"PIZZAS",
+    "precio":3000
+},{
+    "id":"4",
+    "producto":"Ciabata",
+    "imagen":"https://www.abc.com.py/resizer/yKHMjZFa20_k-ssl3IU27zQzmvs=/arc-anglerfish-arc2-prod-abccolor/public/QHY74HMLXRHLTFNBCW5J3VMW2E.jpg",
+    "descripcion":"Pan originario de Italia. Su nombre proviene de la palabra 'ciabatta', que significa zapatilla en italiano, debido a su forma aplanada y alargada. Es un pan de miga abierta, con una corteza crujiente y dorada.",
+    "categoria":"EMPANADAS",
+    "precio":1000
+},{
+    "id":"1",
+    "producto":"Chipa",
+    "imagen":"https://alicante.com.ar/uploads/recetas/91_receta.jpg",
+    "descripcion":"Panecillo tradicional de Paraguay, de textura densa y ligeramente crujiente por fuera, mientras que el interior es suave y con un sabor a queso distintivo.",
+    "categoria":"PIZZAS",
+    "precio":500
+},
+{
+    "id":"2",
+    "producto":"Focaccia",
+    "imagen":"https://comidaschilenas.com/wp-content/uploads/2023/04/Receta-de-focaccia-italiana-casera.jpg",
+    "descripcion":"Pan plano originario de Italia. Su masa es similar a la del pan, pero se caracteriza por ser más gruesa y se le añade aceite de oliva y hierbas aromáticas como romero, tomillo o albahaca.",
+    "categoria":"EMPANADAS",
+    "precio":2000
+},{
+    "id":"3",
+    "producto":"Sandwich de miga",
+    "imagen":"https://s7e6w6d2.rocketcdn.me/wp-content/uploads/2021/05/sandwichesdemiga-e1675089010170.jpg",
+    "descripcion":"Clásico de la gastronomía argentina. Consiste en una especie de sándwich hecho con pan de miga, que es un pan de molde muy fino y suave, sin corteza.",
+    "categoria":"PIZZAS",
+    "precio":3000
+},{
+    "id":"4",
+    "producto":"Ciabata",
+    "imagen":"https://www.abc.com.py/resizer/yKHMjZFa20_k-ssl3IU27zQzmvs=/arc-anglerfish-arc2-prod-abccolor/public/QHY74HMLXRHLTFNBCW5J3VMW2E.jpg",
+    "descripcion":"Pan originario de Italia. Su nombre proviene de la palabra 'ciabatta', que significa zapatilla en italiano, debido a su forma aplanada y alargada. Es un pan de miga abierta, con una corteza crujiente y dorada.",
+    "categoria":"PIZZAS",
+    "precio":1000
+}]

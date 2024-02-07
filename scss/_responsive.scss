@@ -1,9 +1,16 @@
-@media only screen and (max-width: 960px){
+@use "_commons" as c;
+
+@media only screen and (max-width: 1280px){
   .shop__container{
     margin: 0;
     border-radius: 0;
     .carrousel__container{
-      width: 150%;
+      //-----
+      overflow: hidden;
+      #carouselFood{
+        width: 150%;
+      }
+      //-----
       .title{
         font-size: 5em;
       }
@@ -29,18 +36,14 @@
       }
       #food__container{
         margin:5em 2.5em 0;
-        border: 2px solid rgb(252, 170, 170);
+        border: 2px solid c.$contrast-color;
         
-        .container__detail{
+        .detail__container{
           width: 16em;
-          height: 16em;
+          height: 20em;
         }
-
         .detail__img{
           width: 15em;
-        }
-        .price{
-          font-size: 1.5em;
         }
       }
     }
@@ -50,9 +53,18 @@
   }
 }
 
-@media only screen and (max-width: 480px){
+@media only screen and (max-width: 768px){
   .shop__container{
     .carrousel__container{
+      height: 90vh;
+      #carouselFood{
+        height: 90vh;
+      }
+      .wave{
+        position: absolute;
+        margin-top: -9.3em;
+        width: 130%;
+      }
       .title{
         font-size: 3em;
       }
@@ -73,6 +85,17 @@
           margin-left: auto;
           width: 32px;
           height: 32px;
+        }
+      }
+      #food__container{
+        margin: 5em 1em 0 1em;
+        width: calc(100% - 2em);
+        .detail__container{
+          width: 110%;
+          height: 18em;
+        }
+        .detail__img{
+          width: 12em;
         }
       }
     }
@@ -107,28 +130,26 @@
 
 //Hover para dispositivos con cursor
 @media (hover:hover){
-  
+  .container-fluid{
+    .nav-link:hover{
+      color:c.$contrast-color;
+    }
+  }
   .main__container{
     .categories{
       .category__btn{
         &:hover span{
-          left: 2.1em;
-        }
-        &:hover {
-          color: #fff
+          left: 0;
         }
       }
     }
     #food__container{
-      .container__detail{
-        &:hover .detail__img{
-          width: 100%;
-          height: 100%;
+      .detail__container{
+        &:hover{
+          transform: scale(1.1);
+          transition: all .5s;
           border-radius: 0;
-          border: 2px solid #000
-        }
-        &:hover .price{
-          display: none;
+          border: 1px solid #000
         }
       }
     }

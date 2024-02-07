@@ -1,3 +1,16 @@
+::-webkit-scrollbar-track {
+  background: #000;
+}
+
+::-webkit-scrollbar {
+  width: 0.7em;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(252, 170, 170);
+  border-radius: 1em;
+}
+
 .shop__container {
   margin: 0 10em;
   border-radius: 10px;
@@ -7,6 +20,9 @@
 .shop__container .container-fluid {
   display: flex;
   justify-content: space-between;
+}
+.shop__container .container-fluid .logo {
+  cursor: default;
 }
 .shop__container .container-fluid .navbar-brand {
   font-size: 1.7em;
@@ -19,6 +35,7 @@
   width: 100%;
   height: 96vh;
   position: relative;
+  cursor: default;
 }
 .shop__container .carrousel__container #carouselFood .main__img {
   height: 96vh;
@@ -73,7 +90,7 @@
   border: 0;
   border-radius: 1em;
   width: 9.5em;
-  height: 2em;
+  height: 2.2em;
   cursor: pointer;
   z-index: 100;
   transition: color 1s;
@@ -89,9 +106,12 @@
   height: 10em;
   left: 13em;
   top: -1em;
-  background-color: #000;
+  background-color: #fd9c9c;
   transition: left 0.5s;
   z-index: -100;
+}
+.shop__container .main__container .categories .active {
+  box-shadow: 0 0 4px 0.3em rgb(252, 170, 170);
 }
 .shop__container .main__container .categories .category__icon {
   width: 32px;
@@ -109,32 +129,29 @@
   border-bottom: 2px solid rgb(252, 170, 170);
   justify-content: center;
 }
-.shop__container .main__container #food__container .container__detail {
+.shop__container .main__container #food__container .detail__container {
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  background-color: #fd9c9c;
   box-shadow: 0 0 0.4em #000;
-  width: 22em;
+  width: 20em;
   height: 20em;
   transition: box-shadow 2s;
 }
+.shop__container .main__container #food__container .title {
+  font-size: 1.3em;
+  text-align: center;
+}
 .shop__container .main__container #food__container .detail__img {
-  width: 20em;
-  height: 10em;
-  border-radius: 0.5em;
-  transition: width 0.3s, height 0.7s;
+  width: 14em;
+  border-radius: 10px;
 }
 .shop__container .main__container #food__container .price {
-  color: #000;
-  font-size: 2em;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 1.1em;
 }
-.shop__container .main__container #food__container::-webkit-scrollbar {
-  width: 0.7em;
-}
-.shop__container .main__container #food__container::-webkit-scrollbar-thumb {
-  background-color: rgb(252, 170, 170);
+.shop__container .main__container #food__container::-webkit-scrollbar-track {
   border-radius: 1em;
 }
 .shop__container #contacto {
@@ -170,32 +187,32 @@
   align-items: center;
 }
 .shop__container #contacto .contact__right div .whatsapp {
+  width: 40px;
+  height: 40px;
   display: flex;
   margin-left: auto;
   margin-right: auto;
-  width: 40px;
-  height: 40px;
 }
 .shop__container #contacto .contact__right div .facebook {
-  display: flex;
-  margin-left: auto;
-  margin-right: auto;
   width: 31px;
   height: 31px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
 }
 .shop__container #contacto .contact__right div .instagram {
-  display: flex;
-  margin-left: auto;
-  margin-right: auto;
   width: 35px;
   height: 35px;
-}
-.shop__container #contacto .contact__right div .email {
   display: flex;
   margin-left: auto;
   margin-right: auto;
+}
+.shop__container #contacto .contact__right div .email {
   width: 40px;
   height: 40px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
 }
 .shop__container #contacto .contact__right div p {
   padding: 10px 0 0 10px;
@@ -212,12 +229,15 @@
   color: #fff;
 }
 
-@media only screen and (max-width: 960px) {
+@media only screen and (max-width: 1280px) {
   .shop__container {
     margin: 0;
     border-radius: 0;
   }
   .shop__container .carrousel__container {
+    overflow: hidden;
+  }
+  .shop__container .carrousel__container #carouselFood {
     width: 150%;
   }
   .shop__container .carrousel__container .title {
@@ -242,21 +262,29 @@
     margin: 5em 2.5em 0;
     border: 2px solid rgb(252, 170, 170);
   }
-  .shop__container .main__container #food__container .container__detail {
+  .shop__container .main__container #food__container .detail__container {
     width: 16em;
-    height: 16em;
+    height: 20em;
   }
   .shop__container .main__container #food__container .detail__img {
     width: 15em;
-  }
-  .shop__container .main__container #food__container .price {
-    font-size: 1.5em;
   }
   .shop__container footer {
     text-align: center;
   }
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 768px) {
+  .shop__container .carrousel__container {
+    height: 90vh;
+  }
+  .shop__container .carrousel__container #carouselFood {
+    height: 90vh;
+  }
+  .shop__container .carrousel__container .wave {
+    position: absolute;
+    margin-top: -9.3em;
+    width: 130%;
+  }
   .shop__container .carrousel__container .title {
     font-size: 3em;
   }
@@ -276,6 +304,17 @@
     margin-left: auto;
     width: 32px;
     height: 32px;
+  }
+  .shop__container .main__container #food__container {
+    margin: 5em 1em 0 1em;
+    width: calc(100% - 2em);
+  }
+  .shop__container .main__container #food__container .detail__container {
+    width: 110%;
+    height: 18em;
+  }
+  .shop__container .main__container #food__container .detail__img {
+    width: 12em;
   }
   .shop__container #contacto {
     gap: 1em;
@@ -297,20 +336,17 @@
   }
 }
 @media (hover: hover) {
+  .container-fluid .nav-link:hover {
+    color: rgb(252, 170, 170);
+  }
   .main__container .categories .category__btn:hover span {
-    left: 2.1em;
+    left: 0;
   }
-  .main__container .categories .category__btn:hover {
-    color: #fff;
-  }
-  .main__container #food__container .container__detail:hover .detail__img {
-    width: 100%;
-    height: 100%;
+  .main__container #food__container .detail__container:hover {
+    transform: scale(1.1);
+    transition: all 0.5s;
     border-radius: 0;
-    border: 2px solid #000;
-  }
-  .main__container #food__container .container__detail:hover .price {
-    display: none;
+    border: 1px solid #000;
   }
   #contacto .contact__right div .whatsapp:hover {
     width: 43px;

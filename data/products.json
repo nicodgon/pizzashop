@@ -1,76 +1,86 @@
-[{
-    "id":1,
-    "product":"Empanada de carne",
-    "image":"../assets/images/products/empanada-carne.png",
-    "category":"EMPANADAS",
-    "price":500
-},
-{
-    "id":2,
-    "product":"Empanada de humita",
-    "image":"../assets/images/products/empanada-humita.png",
-    "category":"EMPANADAS",
-    "price":2000
-},{
-    "id":3,
-    "product":"Pizza calabresa",
-    "image":"../assets/images/products/pizza-calabresa.jpg",
-    "category":"PIZZAS",
-    "price":500
-},
-{
-    "id":4,
-    "product":"Pizza de jamón",
-    "image":"../assets/images/products/pizza-con-jamón.jpg",
-    "category":"PIZZAS",
-    "price":2000
-},{
-    "id":5,
-    "product":"Empanada de jamón y queso",
-    "image":"../assets/images/products/empanada-jamón-queso.png",
-    "category":"EMPANADAS",
-    "price":3000
-},{
-    "id":6,
-    "product":"Pizza de morrón",
-    "image":"../assets/images/products/pizza-con-morrón.jpg",
-    "category":"PIZZAS",
-    "price":3000
-},{
-    "id":7,
-    "product":"Pizza con tomate",
-    "image":"../assets/images/products/pizza-con-tomate.jpg",
-    "category":"PIZZAS",
-    "price":1000
-},{
-    "id":8,
-    "product":"Pizza de jamón crudo y rúcula",
-    "image":"../assets/images/products/pizza-jamón-rúcula.jpg",
-    "category":"PIZZAS",
-    "price":500
-},
-{
-    "id":9,
-    "product":"Pizza de muzzarella",
-    "image":"../assets/images/products/pizza-muzzarella.jpg",
-    "category":"PIZZAS",
-    "price":2000
-},{
-    "id":10,
-    "product":"Empanada de pollo",
-    "image":"../assets/images/products/empanada-pollo.png",
-    "category":"EMPANADAS",
-    "price":1000
-},{
-    "id":11,
-    "product":"Pizza de provolone con tomate",
-    "image":"../assets/images/products/pizza-provolone.jpeg",
-    "category":"PIZZAS",
-    "price":3000
-},{
-    "id":12,
-    "product":"Pizza de roquefort",
-    "image":"../assets/images/products/pizza-roquefort.jpg",
-    "category":"PIZZAS",
-    "price":1000
-}]
+[
+  {
+    "id": 1,
+    "product": "Empanada de carne",
+    "image": "../assets/images/products/empanada-carne.png",
+    "category": "EMPANADAS",
+    "price": 500
+  },
+  {
+    "id": 2,
+    "product": "Empanada de humita",
+    "image": "../assets/images/products/empanada-humita.png",
+    "category": "EMPANADAS",
+    "price": 2000
+  },
+  {
+    "id": 3,
+    "product": "Pizza calabresa",
+    "image": "../assets/images/products/pizza-calabresa.jpg",
+    "category": "PIZZAS",
+    "price": 500
+  },
+  {
+    "id": 4,
+    "product": "Pizza de jamón",
+    "image": "../assets/images/products/pizza-con-jamón.jpg",
+    "category": "PIZZAS",
+    "price": 2000
+  },
+  {
+    "id": 5,
+    "product": "Empanada de jamón y queso",
+    "image": "../assets/images/products/empanada-jamón-queso.png",
+    "category": "EMPANADAS",
+    "price": 3000
+  },
+  {
+    "id": 6,
+    "product": "Pizza de morrón",
+    "image": "../assets/images/products/pizza-con-morrón.jpg",
+    "category": "PIZZAS",
+    "price": 3000
+  },
+  {
+    "id": 7,
+    "product": "Pizza con tomate",
+    "image": "../assets/images/products/pizza-con-tomate.jpg",
+    "category": "PIZZAS",
+    "price": 1000
+  },
+  {
+    "id": 8,
+    "product": "Pizza de jamón crudo y rúcula",
+    "image": "../assets/images/products/pizza-jamón-rúcula.jpg",
+    "category": "PIZZAS",
+    "price": 500
+  },
+  {
+    "id": 9,
+    "product": "Pizza de muzzarella",
+    "image": "../assets/images/products/pizza-muzzarella.jpg",
+    "category": "PIZZAS",
+    "price": 2000
+  },
+  {
+    "id": 10,
+    "product": "Empanada de pollo",
+    "image": "../assets/images/products/empanada-pollo.png",
+    "category": "EMPANADAS",
+    "price": 1000
+  },
+  {
+    "id": 11,
+    "product": "Pizza de provolone con tomate",
+    "image": "../assets/images/products/pizza-provolone.jpeg",
+    "category": "PIZZAS",
+    "price": 3000
+  },
+  {
+    "id": 12,
+    "product": "Pizza de roquefort",
+    "image": "../assets/images/products/pizza-roquefort.jpg",
+    "category": "PIZZAS",
+    "price": 1000
+  }
+]

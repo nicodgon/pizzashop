@@ -182,40 +182,45 @@
 }
 .shop__container #contacto .contact__right div {
   display: grid;
-  grid-template-columns: 4em 1fr;
+  grid-template-columns: 3em 1fr 2em;
   grid-template-rows: repeat(4, 1em);
   align-items: center;
 }
 .shop__container #contacto .contact__right div .whatsapp {
-  width: 40px;
-  height: 40px;
+  width: 37px;
+  height: 37px;
   display: flex;
-  margin-left: auto;
-  margin-right: auto;
 }
 .shop__container #contacto .contact__right div .facebook {
   width: 31px;
   height: 31px;
   display: flex;
-  margin-left: auto;
-  margin-right: auto;
 }
 .shop__container #contacto .contact__right div .instagram {
-  width: 35px;
-  height: 35px;
+  width: 32px;
+  height: 32px;
   display: flex;
-  margin-left: auto;
-  margin-right: auto;
 }
 .shop__container #contacto .contact__right div .email {
-  width: 40px;
-  height: 40px;
+  width: 33px;
+  height: 33px;
   display: flex;
-  margin-left: auto;
-  margin-right: auto;
+}
+.shop__container #contacto .contact__right div #copy__button {
+  width: 35px;
+  height: 35px;
+  padding: 0;
+  border: none;
+  border-radius: 100%;
+  margin-left: 0.2em;
+  margin-bottom: 0.4em;
+  background-color: rgba(0, 0, 0, 0.5294117647);
+}
+.shop__container #contacto .contact__right div #copy__button img {
+  width: 20px;
 }
 .shop__container #contacto .contact__right div p {
-  padding: 10px 0 0 10px;
+  margin: 0;
   font-size: 1.4em;
 }
 .shop__container footer {
@@ -275,15 +280,17 @@
 }
 @media only screen and (max-width: 768px) {
   .shop__container .carrousel__container {
-    height: 90vh;
+    height: 50vh;
   }
   .shop__container .carrousel__container #carouselFood {
     height: 90vh;
   }
+  .shop__container .carrousel__container #carouselFood .main__img {
+    height: 50vh;
+  }
   .shop__container .carrousel__container .wave {
-    position: absolute;
-    margin-top: -9.3em;
-    width: 130%;
+    margin-top: -24em;
+    width: 180%;
   }
   .shop__container .carrousel__container .title {
     font-size: 3em;
@@ -329,7 +336,14 @@
     margin-bottom: 2em;
   }
   .shop__container #contacto .contact__right div p {
-    font-size: 1em;
+    font-size: 0.8em;
+  }
+  .shop__container #contacto .contact__right div #copy__button {
+    width: 30px;
+    height: 30px;
+  }
+  .shop__container #contacto .contact__right div #copy__button img {
+    width: 15px;
   }
   .shop__container footer p {
     font-size: 0.7em;
@@ -349,19 +363,18 @@
     border: 1px solid #000;
   }
   #contacto .contact__right div .whatsapp:hover {
-    width: 43px;
-    height: 43px;
+    transform: scale(1.1);
   }
   #contacto .contact__right div .facebook:hover {
-    width: 34px;
-    height: 34px;
+    transform: scale(1.1);
   }
   #contacto .contact__right div .instagram:hover {
-    width: 38px;
-    height: 38px;
+    transform: scale(1.1);
   }
   #contacto .contact__right div .email:hover {
-    width: 43px;
-    height: 43px;
+    transform: scale(1.1);
+  }
+  #contacto .contact__right div #copy__button:hover {
+    background-color: rgba(0, 0, 0, 0.6274509804);
   }
 }/*# sourceMappingURL=main.css.map */

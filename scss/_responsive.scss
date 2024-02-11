@@ -56,14 +56,16 @@
 @media only screen and (max-width: 768px){
   .shop__container{
     .carrousel__container{
-      height: 90vh;
+      height: 50vh;
       #carouselFood{
         height: 90vh;
+        .main__img{
+          height:50vh;
+        }
       }
       .wave{
-        position: absolute;
-        margin-top: -9.3em;
-        width: 130%;
+        margin-top: -24em;
+        width: 180%;
       }
       .title{
         font-size: 3em;
@@ -115,7 +117,14 @@
         }
         div{
           p{
-            font-size: 1em;
+            font-size: .8em;
+          }
+          #copy__button{
+            width: 30px;
+            height: 30px;
+          }
+          #copy__button img{
+            width: 15px;
           }
         }
       }
@@ -158,20 +167,19 @@
     .contact__right{
       div{
         .whatsapp:hover{
-          width: 43px;
-          height: 43px
+          transform: scale(1.1);
         }
         .facebook:hover{
-          width: 34px;
-          height: 34px
+          transform: scale(1.1);
         }
         .instagram:hover{
-          width: 38px;
-          height: 38px
+          transform: scale(1.1);
         }
         .email:hover{
-          width: 43px;
-          height: 43px
+          transform: scale(1.1);
+        }
+        #copy__button:hover{
+          background-color: #000000a0;
         }
       }
     }

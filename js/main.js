@@ -10,6 +10,7 @@ const categories = [
   },
 ];
 const myCarouselElement = document.querySelector("#carouselFood");
+const copyBtn = document.getElementById("copy__button");
 
 //Configuracion del carrusel de bootstrap
 const carousel = new bootstrap.Carousel(myCarouselElement, {
@@ -17,6 +18,17 @@ const carousel = new bootstrap.Carousel(myCarouselElement, {
   touch: false,
   pause: false,
 });
+
+//Boton para copiar el email
+copyBtn.innerHTML=`<img src="./assets/images/icons/contact/copiar.svg">`
+copyBtn.addEventListener("click",(event)=>{
+  event.preventDefault()
+  navigator.clipboard.writeText("nicolasdgz20@gmail.com")
+  copyBtn.innerHTML=`<img src="./assets/images/icons/contact/copia-exitosa.svg">`
+  setTimeout(() => {
+    copyBtn.innerHTML=`<img src="./assets/images/icons/contact/copiar.svg">`
+  }, 3000);
+})
 
 //Llamado al json con los productos
 fetch("../data/products.json")

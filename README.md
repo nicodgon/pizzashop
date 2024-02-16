@@ -1,4 +1,4 @@
-# Pizza shop  <a href="https://calm-conkies-e1909a.netlify.app"><img alt="Página web" src="https://img.shields.io/badge/P%C3%A1gina-%23f00?style=flat-square&logo=google&logoColor=%23000"></a>
+# Pizza shop  <a href="https://pizzashop.ndgonzalez.com"><img alt="Página web" src="https://img.shields.io/badge/P%C3%A1gina-%23f00?style=flat-square&logo=google&logoColor=%23000"></a>
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=F70066&random=false&width=435&lines=TIENDA+DE+PIZZA)](https://git.io/typing-svg)
 
